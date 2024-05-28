@@ -1,0 +1,50 @@
+.box > h1 {
+  text-align: center;
+    color: rgb(216, 217, 219);
+    -webkit-text-stroke: 1px rgb(90, 68, 68);
+}
+
+.box {
+    width: 30%;
+    height: 35vh;
+    background-color: rgb(140, 67, 67);
+    gap: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(148, 117, 117);
+    text-align: center;
+    margin: 200px;
+    padding: 54px;
+}
+
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+background-color: rgb(187, 164, 164);
+
+}
+
+input {
+ background-color: rgb(186, 147, 147);
+ border: 0px;
+ width: 80%;
+ height: 35px;
+ margin: 10px 40px 0px ;
+ border-radius: 8px;
+}
+
+
+button {
+    background-color: rgb(58, 128, 142);
+    border: 0px;
+    width: 81%;
+    height: 35px;
+    margin: 10px 40px 0px ;  
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+button:active {
+    background-color:  rgb(3, 213, 255);
+}
+

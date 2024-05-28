@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613162438_77-p-zheltii-fon-na-zastavku-telefona-93.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  .header {
+    margin-top: 20px;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 136, 136);
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(95, 121, 126);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .task {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-text {
+    width: 70%;
+  }
